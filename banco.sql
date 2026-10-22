@@ -4,7 +4,7 @@ CREATE DATABASE IF NOT EXISTS aula_mysql
   COLLATE utf8mb4_unicode_ci;
 
 -- Seleciona o banco que receberá a tabela.
-USE aula_mysql;
+USE Projeto_Crud;
 
 -- Cada aluno possui identificador automático e e-mail único.
 CREATE TABLE IF NOT EXISTS alunos (
